@@ -19,7 +19,7 @@
 | 13 | **LLM integration** | ✅ Done | Google Gemini 2.5 Pro (paid API) |
 | 14 | **LangChain / LlamaIndex** | ✅ Done | LangChain used throughout |
 | 15 | **FAISS / ChromaDB** | ✅ Done | FAISS (in-memory) |
-| 16 | **Source code with GitHub repo** | ⚠️ Pending | Code is ready, needs `git push` |
+| 16 | **Source code with GitHub repo** | ✅ Done |`git push` |
 | 17 | **README with setup instructions** | ✅ Done | [README.md](file:///d:/RAG/README.md) |
 | 18 | **Working demo/UI** | ✅ Done | Full UI served at `http://localhost:8000` |
 | 19 | **Dynamic & flexible implementation** | ✅ Done | Session-based architecture, modular pipeline |
