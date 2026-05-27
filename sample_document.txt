@@ -1,0 +1,41 @@
+# Sample Document for Testing
+
+## Introduction
+This is a sample test document created for the RAG chatbot application.
+
+## What is RAG?
+Retrieval-Augmented Generation (RAG) is a technique that combines information retrieval with generative AI models. It works by:
+
+1. Retrieving relevant documents or passages based on a query
+2. Using those documents as context for the AI model
+3. Generating a response that is grounded in the retrieved information
+
+## Benefits of RAG
+- Provides accurate, cited information
+- Reduces hallucination from language models
+- Allows using private or domain-specific documents
+- Enables real-time information integration
+- Improves response relevance and reliability
+
+## How This Chatbot Works
+This RAG chatbot uses:
+- FastAPI for the backend API
+- FAISS for semantic search across documents
+- Google Gemini for embeddings and response generation
+- A simple HTML/CSS/JavaScript interface for the frontend
+
+Users can upload PDF, DOCX, or TXT files, and the system will:
+1. Extract text from the files
+2. Create semantic embeddings
+3. Index them in a vector database
+4. Answer questions using the indexed documents as context
+
+## Applications
+RAG technology can be applied to:
+- Customer support documentation
+- Internal knowledge bases
+- Legal document analysis
+- Medical literature reviews
+- Financial reports analysis
+- Research paper summarization
+- Code repository documentation
